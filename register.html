@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3D打印商城 - 注册</title>
+    <meta name="keywords" content="3D打印商城,3D打印机,3D打印技术,3D打印机价格,3D打印展会,3D打印服务,3d打印机品牌,3d打印材料,pla,fdm" />
+    <meta name="description" content="3D打印商城-有限公司是典型的互联网＋，是3D打印与互联网结合的充分体现" />
+    <link rel="stylesheet" href="css/rester.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/diffent.css">
+    <script src="js/jquery.min.1.7.js"></script>
+</head>
+<body>
+
+    <div class="container auto marT20">
+        <!--logo-->
+        <a href="index.html"><img src="img/logo.png" alt="logo"/></a>
+        <div class="marT20 clearfix">
+            <!--左侧图片-->
+            <p class="loginImg fl displayInline"><img src="img/reimg.png" alt="loginimg" /></p>
+            <!--右侧注册信息-->
+            <div class="registerBox fr">
+
+                <div class="account">
+                    <p class="font16 orange accountTitle"><span>帐户信息</span></p>
+                    <p class="accountLine marT10"></p>
+                    <form action="">
+                    <ul class="marT10">
+                        <li class="font14 darkGray">
+                            会员类型 <span class="red">*</span>
+                            <input type="radio" checked="checked" class="marL7"/><span class="marL7">企业会员类型</span>
+                        </li>
+                        <li class="font14 darkGray marT10">
+                            会员名<span class="red">*</span>
+                            <input type="text" class="userInput gray marL18"/>
+                        </li>
+                        <li class="font14 darkGray marT10">
+                            登录密码<span class="red">*</span>
+                            <input type="password" class="userInput gray marL7"/>
+                        </li>
+                        <li class="font14 darkGray marT10">
+                            重复输入<span class="red">*</span>
+                            <input type="password" class="userInput gray marL7"/>
+                        </li>
+                    </ul>
+                    </form>
+                </div>
+                <div class="account marT10">
+                    <p class="font16 orange contanctWay"><span>联系方式</span></p>
+                    <p class="accountLine marT10"></p>
+                    <form action="">
+                    <ul class="marT10">
+                        <li class="font14 darkGray">
+                            真实姓名<span class="red">*</span>
+                            <input type="text" checked="checked" class="marL7 userInput"/>
+                            <input type="radio" name="radio" checked="checked" class="marL7"/><span class="marL7">先生</span>
+                            <input type="radio" name="radio" class="marL7"/><span class="marL7">女士</span>
+                        </li>
+                        <li class="font14 darkGray marT10">
+                            所在地区<span class="red">*</span>
+                            <input type="text" class="userInput gray"/>
+                        </li>
+                        <li class="font14 darkGray marT10">
+                            电子邮箱<span class="red">*</span>
+                            <input type="text" class="userInput gray"/>
+                        </li>
+                        <li class="font14 darkGray marT10">
+                            手机号码<span class="red">*</span>
+                            <input type="text" class="userInput gray"/>
+                        </li>
+                        <li class="font14 darkGray marT10">
+                            手机验证码<span class="red">*</span>
+                            <input type="text" class="userInput gray"/>
+                            <input type="button"  value="立即发送" class="sendButton font14 white"/>
+                        </li>
+                        <li class="font14 darkGray marT10">
+                            QQ号码<span class="red">*</span>
+                            <input type="text" class="userInput gray marL7"/>
+                        </li>
+                    </ul>
+                    </form>
+                </div>
+                <div class="account marT10">
+                    <p class="font16 orange companyInformation"><span>公司信息</span></p>
+                    <p class="accountLine marT10"></p>
+                    <form action="">
+                    <ul class="marT10">
+                        <li class="font14 darkGray">
+                            公司名称<span class="red">*</span>
+                            <input type="text" checked="checked" class="marL7 userInput"/>
+                       </li>
+                        <li class="font14 darkGray marT10">
+                            公司类型<span class="red">*</span>
+                            <input type="text" class="userInput gray"/>
+                        </li>
+                        <li class="font14 darkGray marT10">
+                            公司电话<span class="red">*</span>
+                            <input type="text" class="userInput gray"/>
+                        </li>
+                        <li class="font14 darkGray marT10">
+                            验证码<span class="red">*</span>
+                            <input type="text" class="userInput gray"/>
+                            <span class="regCode"><img src="img/codem.png" alt="codem" /></span>
+                        </li>
+                    </ul>
+                    </form>
+                </div>
+                <ul class="marT10">
+                    <li class="font12 darkGray">
+                        <input type="checkbox"  checked="checked"/><a href="#" class="font12 darkGray marL7">我已阅读并同意服务条款</a>
+                    </li>
+                    <li class="marT10">
+                        <input type="button" value="立即注册" class="reButton font16 white"/>
+                    </li>
+                </ul>
+            </div>
+       </div>
+    </div>
+    <script>
+        $(".userInput").focus(function(){
+            $(this).addClass("clickBorder");
+        }).blur(function(){
+            $(this).removeClass("clickBorder");
+        })
+    </script>
+
+    <!--底部链接-->
+    <ul class="longinBottomLink clearfix auto marT20">
+        <li class="fl"><a href="index.html" class="font12 darkGray">首页</a></li>
+        <li class="loginLine fl marT8 marL7"></li>
+        <li class="fl marL7"><a href="index.html" class="font12 darkGray">招聘英才</a></li>
+        <li class="loginLine fl marT8 marL7"></li>
+        <li class="fl marL7"><a href="index.html" class="font12 darkGray">合作及洽谈</a></li>
+        <li class="loginLine fl marT8 marL7"></li>
+        <li class="fl marL7"><a href="index.html" class="font12 darkGray">联系我们</a></li>
+        <li class="loginLine fl marT8 marL7"></li>
+        <li class="fl marL7"><a href="index.html" class="font12 darkGray">关于3D打印商城</a></li>
+    </ul>
+    <p align="center" class="marT20"><img src="img/cop.png" alt="cop"></p>
+    <p class="marT20 align font12 gray">沪ICP12345678-1号</p>
+    </div>
+</body>
+</html>
